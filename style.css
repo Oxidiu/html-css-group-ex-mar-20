@@ -35,3 +35,37 @@ tfoot {
 textarea {
   resize: vertical;
 }
+#main-section{
+  padding:20px;
+  border: 2px solid cyan;
+}
+.list-style{
+  padding:20px;
+  border: 2px solid cyan;
+}
+h1, h2, h3{
+  border: 2px dashed red;
+  text-align: center;
+}
+.list-style li{
+  margin-left: 40px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  cursor: none;
+}
+.blocky{
+  display: block;
+}
+.div-style{
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  transform:scale(2);
+}
+#finish{
+  transform: scale(2) rotate(90deg);
+  
+}
